@@ -1,5 +1,6 @@
 [TH20]: https://github.com/GTunuFu/Student2Startup/blob/master/TamuHacklogo.png "TAMUHACK 20 LOGO"
 [S2S]: https://github.com/GTunuFu/Student2Startup/blob/master/www/sslogo.png "S2S Logo"
+[SlackMockUp]: https://github.com/GTunuFu/Student2Startup/blob/master/MockUpSlackProfileScreenShot.png "Mock up Slack Profile Page"
 
 ![alt text][S2S]
 # Student2Startup
@@ -39,3 +40,5 @@ Since we started over at hackathon I will be writing this in as all in one versi
   ```
   Above is code devoted for the sidebar that operated for navigational purposes amoung the entire page. Other than removing or adding different links to this, the basic code remains the same across all pages on the aplication. *Got the template for this from w3schools*
   
+
+![alt text][SlackMockUp] 
