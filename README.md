@@ -1,3 +1,7 @@
+[TH20]: https://github.com/GTunuFu/Student2Startup/blob/master/TamuHacklogo.png "TAMUHACK 20 LOGO"
+[S2S]: https://github.com/GTunuFu/Student2Startup/blob/master/www/sslogo.png "S2S Logo"
+
+![alt text][S2S]
 # Student2Startup
 A Hackathon project aimed to bridging the modern gap between startups and students.
 
@@ -13,9 +17,9 @@ Instead of building it similar to all other recruiting websites, we decided to a
 
 
 
-[TH20]: https://github.com/GTunuFu/Student2Startup/blob/master/TamuHacklogo.png "TAMUHACK 20 LOGO"
 Since we started over at hackathon I will be writing this in as all in one version to explain all progress that was made at the TAMU HACKATHON for thew 2020 MLH season. 
-**Quick Notes**
+
+**Quick Notes:**
 - This was built mostly in native HTML,CSS, and JS with bootstrapper
 - To create mobile interface, we used adobe phonegap to push to android 
 - Has basic infrastrture from Google Firebase
@@ -33,5 +37,5 @@ Since we started over at hackathon I will be writing this in as all in one versi
       <a href="#" class="w3-bar-item w3-button"><a href="howto.html">How to S2S</a></a>
   </div>
   ```
-  
+  Above is code devoted for the sidebar that operated for navigational purposes amoung the entire page. Other than removing or adding different links to this, the basic code remains the same across all pages on the aplication. *Got the template for this from w3schools*
   
