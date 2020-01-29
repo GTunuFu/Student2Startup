@@ -14,3 +14,24 @@ Instead of building it similar to all other recruiting websites, we decided to a
 
 
 [TH20]: https://github.com/GTunuFu/Student2Startup/blob/master/TamuHacklogo.png "TAMUHACK 20 LOGO"
+Since we started over at hackathon I will be writing this in as all in one version to explain all progress that was made at the TAMU HACKATHON for thew 2020 MLH season. 
+**Quick Notes**
+- This was built mostly in native HTML,CSS, and JS with bootstrapper
+- To create mobile interface, we used adobe phonegap to push to android 
+- Has basic infrastrture from Google Firebase
+
+```
+  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  <div>
+    <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  </div>
+
+  <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+      <a href="#" class="w3-bar-item w3-button">Search Startups</a>
+      <a href="#" class="w3-bar-item w3-button"><a href="Home.html">My Profile</a></a>
+      <a href="#" class="w3-bar-item w3-button"><a href="howto.html">How to S2S</a></a>
+  </div>
+  ```
+  
+  
