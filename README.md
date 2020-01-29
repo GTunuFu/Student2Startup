@@ -7,4 +7,4 @@ A Hackathon project aimed to bridging the modern gap between startups and studen
 
 
 
-[TH20]: /Users/geethtunuguntla/Desktop/Screen\Shot\2020-01-29\at\3.02.33\PM.png "TAMUHACK 20 LOGO"
+[TH20]: https://github.com/GTunuFu/Student2Startup/blob/master/TamuHacklogo.png "TAMUHACK 20 LOGO"
