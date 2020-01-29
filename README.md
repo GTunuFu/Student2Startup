@@ -1,7 +1,7 @@
 [TH20]: https://github.com/GTunuFu/Student2Startup/blob/master/TamuHacklogo.png "TAMUHACK 20 LOGO"
 [S2S]: https://github.com/GTunuFu/Student2Startup/blob/master/www/sslogo.png "S2S Logo"
 [SlackMockUp]: https://github.com/GTunuFu/Student2Startup/blob/master/MockUpSlackProfileScreenShot.png "Mock up Slack Profile Page"
-(https://devpost.com/software/student2startup "Devpost")
+[Devpost](https://devpost.com/software/student2startup)
 ![alt text][S2S]
 # Student2Startup
 A Hackathon project aimed to bridging the modern gap between startups and students.
