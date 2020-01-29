@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>S2S</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+  h2 {
+    text-align: center;
+  }
+  .outer-div {
+width: 100%;
+background-color: white
+        }
+  .inner-div {
+margin: 0 auto;
+padding: 1px;
+background-color: #D5F5E3
+}
+ .pic-holder {
+   text-align: center;
+ }
+</style>
+
+<body>
+
+<!-- Sidebar -->
+
+
+
+
+
+<div class="outer-div">
+
+
+<div class="inner-div">
+
+
+  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  <div>
+    <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  </div>
+
+  <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+      <a href="#" class="w3-bar-item w3-button">Search Startups</a>
+      <a href="#" class="w3-bar-item w3-button"><a href="Home.html">My Profile</a></a>
+      <a href="#" class="w3-bar-item w3-button"><a href="howto.html">How to S2S</a></a>
+  </div>
+
+  <div class="pic-holder">
+  <tr><img src="sslogo.png" alt="S2S Logo"></tr>
+  <tr><h2>NEW</h2></tr>
+  <tr>
+    <th><img src="acorn.png" alt="Acorn"></th>
+    <th><img src="castbox.jpg" alt="Cast Box"></th>
+    <th><img src="classdojo.jpg" alt="Class Dojo"></th>
+    <th><img src="codingdojo.jpg" alt="Coding Dojo"></th>
+  </tr>
+</div>
+<div class="pic-holder">
+  <tr><h2>TRENDING</h2></tr>
+  <tr>
+    <td><img src="digitalocean.jpg" alt="Digital Ocean"></td>
+    <td><img src="eshares.jpg" alt="Eshares"></td>
+    <td><img src="instacart.jpg" alt="Instacart"></td>
+    <th><img src="mixpanel.jpg" alt="Mix Panel"></th>
+  </tr>
+</div>
+<div class="pic-holder">
+  <tr><h2>MOST VIEWED</h2></tr>
+  <tr>
+    <td><img src="petuum.png" alt="petuum"></td>
+    <td><img src="samsara.jpg" alt="Samsara"></td>
+    <td><img src="shyp.jpg" alt="Shyp"></td>
+    <td><a href="Company.html"><img alt="Slack" src="slack.jpg"></a></td>
+  </tr>
+</div>
+</div>
+
+
+
+
+
+
+<!-- Page Content -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+
+
+
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

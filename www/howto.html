@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S2S-Beta.2</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awsome/4.7.0/css/font-awsome.min.css" rel="stylesheet">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+<div>
+  <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+</div>
+
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">Search Startups</a>
+    <a href="#" class="w3-bar-item w3-button"><a href="Home.html">My Profile</a></a>
+    <a href="#" class="w3-bar-item w3-button"><a href="index.html">Today's Home</a></a>
+
+</div>
+
+<body style="background-color:gold;">
+    <div class="profile-card">
+        <div class="image-container">
+            <img src="sslogo.png" class="center" style="width: 50%;"  />
+
+        </div>
+        <div class="main-container">
+
+            <p style="text-align:center;"> Welcome to S2S, Student to Start-up!.</p>
+
+            <hr>
+
+        <fieldset>
+            <legend>What we do.</legend>
+            <p>
+
+
+            <div>
+
+                S2S is a relaxed and intuitive site, that allows students to connect with
+            the start-ups that they choose. We are a striving to make your experience as smooth
+            and enjoyable as possible. Feel free to contact us with our links below and let us know
+            what you think! We hope you find the projects you are passionate about, and strive to use our
+            services to help you change the world.
+
+            </div>
+
+
+           <img src="StartUp.jpg" class="center" style="width: 50%;"  />
+
+
+            </p>
+
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>How to S2S.</legend>
+
+            <p>
+
+
+            <div>
+
+                The process in which we operate is not a complicated one.
+            We make it as easy as possible to connect with start-ups, and communicate. You will start with
+            a profile page, where you are able to express your skills as well as your personalities.
+            Start-ups want to know who you are and what you are passionate about
+            before they hire you within their very exclusive teams. Remember they are
+            start-ups, not corporations, they will be less formal as they are also just
+            a small group of individuals.
+
+            </div>
+
+
+           <img src="collab.jpg" class="center" style="width: 50%;"  />
+
+
+            </p>
+
+        </fieldset>
+            <form>
+                <hr>
+
+
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_pinterest"></a>
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                </div>
+
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+        </div>
+        <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("myOverlay").style.display = "none";
+        }
+        </script>
+    </div>
+</body>
+</html>

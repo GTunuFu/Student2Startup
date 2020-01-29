@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>S2S-Beta</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awsome/4.7.0/css/font-awsome.min.css" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body style="background-color:lightblue;">
+  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  <div>
+    <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  </div>
+
+  <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+      <a href="#" class="w3-bar-item w3-button"><a href="index.html">Today's Home</a></a>
+      <a href="#" class="w3-bar-item w3-button">Search Startups</a>
+      <a href="#" class="w3-bar-item w3-button"><a href="howto.html">How to S2S</a></a>
+  </div>
+    <div class="profile-card">
+        <div class="image-container">
+            <img src="user.jpg" class="center" style="width: 50%;"  />
+            <div class="title">
+                <b><i><h1 style="font-size:250%; text-align:center;">David Denny</h1></i></b>
+            </div>
+        </div>
+        <div class="main-container">
+
+            <p style="text-align:center;">B.Eng Computer Science <bold>@</bold> UTD</p>
+            <p style="text-align:center;">Dallas, Texas</p>
+            <p style="text-align:center;">Ddenny@gmail.com</p>
+            <p style="text-align:center;">264-243-1234</p>
+
+            <hr>
+
+        <fieldset>
+            <legend>Bio</legend>
+            <p>
+            <label>Provide a short description about yourself</label>
+            <textarea> Your text here, 150 character limit </textarea>
+        </p>
+
+        </fieldset>
+
+            <hr>
+
+        <fieldset>
+            <legend>List 5 skills</legend>
+            <ul style="list-style-type:square;">
+            <li><input type="text" skill_1="Skill"><br></li>
+            <li><input type="text" skill_2="Skill"><br></li>
+            <li><input type="text" skill_3="Skill"><br></li>
+            <li><input type="text" skill_4="Skill"><br></li>
+            <li><input type="text" skill_5="Skill"><br></li>
+            </ul>
+
+        </fieldset>
+            <form>
+                <hr>
+                <div class="Submit_button">
+                <form action="/action_page.php">
+                    <input type="submit" value="Submit">
+                </form>
+                </div>
+
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_pinterest"></a>
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                </div>
+
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+                <hr>
+
+               <!--<p style="text-align:center;">We want to know more about you! Send us a message and get to know us too!
+                 You can also submit a short video, that allows you to express yourself!</p> -->
+
+                <div class="Snap_Chat">
+
+                  <a href="../friendlychat-web-master/web/public/index.html"><button class="btn info">Message Us</button></a>
+
+
+                </div>
+
+                <div class="Snap_Video">
+                <form action="/action_page.php">
+                    <input type="submit" value="Quick Chat Me!!">
+                </form>
+                </div>
+
+
+                <hr>
+
+
+
+        </div>
+        <script>
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("myOverlay").style.display = "none";
+        }
+        </script>
+    </div>
+</body>
+</html>

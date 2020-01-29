@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <meta charset="UTF-8">
+    <title>S2S-Beta.2</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awsome/4.7.0/css/font-awsome.min.css" rel="stylesheet">
+</head>
+<style>
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.success {
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+</style>
+<body style="background-color:lightpink;">
+  <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  <div>
+    <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+  </div>
+
+  <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+      <a href="#" class="w3-bar-item w3-button"><a href="index.html">Today's Home</a></a>
+      <a href="#" class="w3-bar-item w3-button">Search Startups</a>
+      <a href="#" class="w3-bar-item w3-button"><a href="Home.html">My Profile</a></a>
+      <a href="#" class="w3-bar-item w3-button"><a href="howto.html">How to S2S</a></a>
+  </div>
+    <div class="profile-card">
+        <div class="image-container">
+            <img src="slack-animation.gif" class="center" style="width: 50%;"  />
+
+        </div>
+        <div class="main-container">
+
+            <hr>
+
+        <fieldset>
+            <legend>What We Do</legend>
+            <p>
+
+        <div class="center">        <!--<embed src="IMG_8601.MOV" autostart="false"/>-->
+          <div>
+           <video width="100%" controls>
+            <source src="IMG_8601.mp4" type="video/mp4">
+           </video>
+            </div>
+                <spacer type="block" width=50% height=200px align>  </spacer>
+            <div class="company"><label style="text-align:center ;">Slack is a company developing collaboration software. It offers a team communication application that provides messaging, video and voice calls, organized conversations, integrated file sharing, searchable history, and other capabilities, as well as numerous integrated third-party tools. The company serves engineering, financial services, sales, IT, marketing, customer support, HR, project management, and media industries.</label>
+        </div>
+
+            </p>
+
+        </fieldset>
+
+            <hr>
+
+
+           <!--<p style="text-align:center;">We want to know more about you! Send us a message and get to know us too!
+             You can also submit a short video, that allows you to express yourself!</p> -->
+
+
+             <fieldset>
+                 <legend>Talk to Us</legend>
+                 <p>
+
+               <div class="center">
+                 <label style="text-align:center;"> What is your favorite food and why? (30 second limit)</label>
+                 </div>
+
+                 <div class="Submit_button">
+                   <form>
+                 <form action="/action_page.php">
+                     <input type="submit" value="Upload Video">
+                 </form>
+                 </div>
+                 <div class="center">
+                   <label style="text-align:center;"> Which is more a more productive work space a think lobby or a cubicle? </label>
+                   </div>
+
+
+                       <textarea class="center"> Your text here, 150 character limit </textarea>
+
+
+
+             <div class="Submit_button">
+                 <a href="../friendlychat-web-master/web/public/index.html"><button class="btn info">Message Us</button></a>
+
+             </div>
+                 </p>
+
+             </fieldset>
+
+
+
+
+
+
+            <div class="Snap_Video">
+            <form action="/action_page.php">
+                <input type="submit" value="Quick Chat Us!!">
+            </form>
+            </div>
+
+
+            <hr>
+<iframe width=100% height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJadwMs3yAhYARkOzoXmRhx7I&key=AIzaSyBzTX2UxyQhNaGWv1vVwWgmJcIMb0mjutE" allowfullscreen></iframe>
+
+
+
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_pinterest"></a>
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                </div>
+
+              </div>
+
+<script async src="https://static.addtoany.com/menu/page.js">
+</script>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+
+
+}
+</script>
+
+        </div>
+    </div>
+</body>
+</html>
