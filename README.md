@@ -85,5 +85,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Acknowledgments
 
 * I would like to thank [MLH](https://mlh.io/) for providing the oppurtunity to let this project take off and nurture a friece competitive nature, to push innovation to its furthest bounds
+* Frindly Chat [Friendly Chat](https://github.com/firebase/friendlychat-web) 
 
 
