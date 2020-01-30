@@ -54,10 +54,11 @@ Google embed maps api above.
 
 ## Deployment
 ###### Version 0.1.0 ######
+For Web Deployment
 - Download copy of all files listed
 - Run *index.html* out selected web browser
 
-For Mobile Depoloyment
+For Mobile Deployment
 - Download Adobe phoneGap on computer and android phone
 - Open file downloaded entire file directory
 - Open app in phone and fix IP to match IP represented on computer phoneGap application
