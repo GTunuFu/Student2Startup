@@ -21,7 +21,9 @@ Instead of building it similar to all other recruiting websites, we decided to a
 Since we started over at hackathon I will be writing this in as all in one version to explain all progress that was made at the TAMU HACKATHON for thew 2020 MLH season. 
 
 **Quick Notes:**
-- This was built mostly in native HTML,CSS, and JS with bootstrapper
+- This was built mostly in native HTML,CSS, and JS with Bootstrap
+- Only has dynamic naviagtion between static pages
+- Friendly chat infrastructure exists but actual message sedning has not been implemented yet.
 - To create mobile interface, we used adobe phonegap to push to android 
 - Has basic infrastrture from Google Firebase
 
