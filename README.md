@@ -56,6 +56,7 @@ Google embed maps api above.
 ###### Version 0.1.0 ######
 - Download copy of all files listed
 - Run *index.html* out selected web browser
+
 For Mobile Depoloyment
 - Download Adobe phoneGap on computer and android phone
 - Open file downloaded entire file directory
