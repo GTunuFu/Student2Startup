@@ -11,7 +11,7 @@ There are tons of startups starting and terminating operation annually, that nev
 
 ###### What it does
 Instead of building it similar to all other recruiting websites, we decided to add something that would make conversation between start-ups and students way more comfortable. This is why we built this app more in terms to resonate a formal social media platform, be it an oxymoron, this serves well to our purpose. After the company and the student have built profile pages that explain a little bit about themselves through short text and video, they will be able to interact with each other. Students will be able to answer questions/prompts posted by the company to tackle the lack of huge HR events or visitation at career fairs. These prompts will allow the company to understand the EQ of the students facing possible hire, without the immense cost that usually comes with. For students, the same applies, we give them the same opportunity to learn about the start up, as the start up will be asked to answer a basic prompt developed by S2S. This will allow the both sides to get a clear understanding on whether or not they are a best fit for each other. Since S2S takes the bulk of the difficulty of sorting and interviewing, it eases the load for start-ups. Ultimately allowing for precise picks for outstanding talent.
-## Version 1.0 ![alt text][TH20]
+## Version 0.1.0 ![alt text][TH20]
 
 
 
@@ -52,5 +52,34 @@ Since we started over at hackathon I will be writing this in as all in one versi
 ```
 Google embed maps api above. 
 
+## Deployment
+###### Version 0.1.0 ######
+- Download copy of all files listed
+- Run *index.html* out selected web browser
+For Mobile Depoloyment
+- Download Adobe phoneGap on computer and android phone
+- Open file downloaded entire file directory
+- Open app in phone and fix IP to match IP represented on computer phoneGap application
+- Press *connect* and app will run
+
+## Built With
+
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - Bootstrap Documentation
+* [Firebase](https://firebase.google.com/) - The Hosting Service/DB used
+* [Atom](https://atom.io/) - IDE used
+* [PhoneGap](https://github.com/phonegap/) - Mobile Implentation Software
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+
+## Acknowledgments
+
+* I would like to thank [MLH](https://mlh.io/) for providing the oppurtunity to let this project take off and nurture a friece competitive nature, to push innovation to its furthest bounds
 
 
